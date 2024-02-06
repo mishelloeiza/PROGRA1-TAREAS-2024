@@ -1,14 +1,8 @@
-Algoritmo Cociente_y_Residuo
-	Escribir 'Ingrese el primer valor'
-	val1 <- 0
-	Leer val1
-	Repetir
-		Escribir 'Ingrese el segundo valor'
-		val2 <- 0
-		Leer val2
-	Hasta Que val2<>0
-	Limpiar Pantalla
-	cosi <- val1/val2
-	residuo <- val1 MOD val2
-	Escribir 'El cosiente de la divici?n es ', cosi, ' el residuo de la divici?n es ', residuo
+Algoritmo  rest_a_de_b
+	Escribir   "Ingrese un numero a" ;
+	Leer   a ;
+	Escribir  "Ingrese un numero b" ;
+	Leer   b  ;
+	resultadodo  =  b - a ;
+	Escribir  "El resultado de la resta de a como a " , a , " y de b como" , b , " = " , resultdo ;
 FinAlgoritmo
